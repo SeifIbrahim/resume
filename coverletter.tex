@@ -1,0 +1,182 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, letterpaper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.4cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-skyblue}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{false}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+%\photo[circle,noedge,left]{./examples/profile}
+
+\name{}{\large Khaled Z. Ibrahim}
+\position{Computer Scientist{\enskip\cdotp\enskip}Computational Research
+Division{\enskip\cdotp\enskip} Lawrence Berkeley National Laboratory}
+\address{
+One Cyclotron Road, 059-4024N, M/S 59R4104, Berkeley, CA 94720}
+
+\mobile{(510)679-9139}
+\email{kzibrahim@lbl.gov}
+\homepage{crd.lbl.gov/departments/computer-science/CLaSS/staff/khaled-ibrahim}
+%\github{posquit0}
+%\linkedin{posquit0}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \extrainfo{extra informations}
+
+%\quote{``Be the change that you want to see in the world."}
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {Computer Scientist Hiring Committee}
+  {2575 Sand Hill Road, Menlo Park, CA 94025}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+%\lettertitle{Job Application for Software Engineer}
+
+% How the letter is opened
+\letteropening{Dear SLAC hiring committee,}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+\letterenclosure[Attached]{Curriculum Vitae, Research Statement}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Khaled Z. Ibrahim~~~·~~~Cover Letter}
+  {}
+
+% Print the title with above letter informations
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+I am submitting my resume and research statement for your consideration for the 
+computer scientist/senior scientist position (Job \#: 2157).
+Currently, I am a tenured computer scientist at Lawrence Berkeley
+National Laboratory in the Computer Languages \& Systems Software
+(CLaSS) Group,  and an affiliate of the computer architecture (CAG) and the
+performance and algorithm (PAR) groups.
+
+My research interests include both basic computer science (parallel
+architecture and runtime systems) and  
+cross-disciplinary activities, such as optimizing simulation codes of quantum chromodynamics
+simulation, turbulence in plasma
+fusion, and  quantum chemistry using tensor contractions. 
+
+For performance analysis and
+tuning research, I targeted multi/many-core architectures (e.g., Intel Haswell, Intel KNC/KNL),
+GPU-accelerated architectures (e.g., nVidia GPUs), and light-weight
+many-core architectures (e.g., IBM BGQ). 
+Moreover, I  contributed to optimizing communication runtimes including
+MPI and GASNet,  improving their performance on many-core architectures and virtual computing
+environments. I conducted research in
+architecting power-efficient embedded designs and high-performance
+speculation mechanisms for parallel processing.
+
+In addition to best paper awards, I won the HPC Challenge Award for the best FFT performance on 49K cores
+Mira in Supercomputing 2014 (runner up for GUPS and HPL),  and two
+top-ten positions in Graph500 in
+Supercomputing 2016. I helped develop and 
+scale plasma turbulence simulation to 98K cores and scaled coupled cluster
+(CCSD) computation to tens of thousands of cores. 
+Leveraging years of research in parallel architectures, runtime systems, and application
+performance tuning, I adopt cross-layer optimization strategies to push the performance
+boundary on extreme-scale   supercomputers.  
+
+%and I am a believer of cross-layer optimization strategies for best
+%performance and efficiency.
+
+
+By joining SLAC, I aim  to advance the computational performance and efficiency in future
+exascale computing systems in various scientific research disciplines, 
+including elementary particle physics, and astrophysics and cosmology. I have always had  the aspiration for
+putting computational resources as a vehicle for scientific discoveries.
+
+I believe the post-Moore's law computing era will significantly impact HPC
+computing. Specifically, current  trends for constructing efficient
+architectures would significantly influence the strategies for scientific code development. 
+In my research statement, I share my views on how to achieve
+and maintain leadership in scientific discoveries in the exascale era and beyond. 
+
+I would be glad to provide further details if my skills match the position. 
+{\bf I also hope  to maintain confidentiality in processing my
+application.} 
+
+%Thank you for considering my application,
+
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
+
+\end{document}
