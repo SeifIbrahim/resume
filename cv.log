@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2018.9.30)  25 OCT 2018 15:38
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2018.9.30)  28 OCT 2018 21:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1037,8 +1037,7 @@ File: microtype.cfg 2016/05/14 v2.6a microtype main configuration file (RS)
 (/usr/share/texlive/texmf-dist/tex/latex/multibib/multibib.sty
 Package: multibib 2008/12/10 v1.4 Multiple bibliographies for one document.
 \mb@biblabelwidth=\count172
-)
-No file cv.aux.
+) (.//cv.aux)
 \openout1 = `cv.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
@@ -1063,6 +1062,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 79.
 LaTeX Font Info:    ... okay on input line 79.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 79.
+
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 79.
 
@@ -1148,12 +1148,10 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 79.
 LaTeX Info: Redefining \pageref on input line 79.
 LaTeX Info: Redefining \nameref on input line 79.
+
+(.//cv.out) (.//cv.out)
 \@outlinefile=\write6
 \openout6 = `cv.out'.
-
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 LaTeX Info: Redefining \microtypecontext on input line 79.
 Package microtype Info: Character protrusion enabled (level 2).
@@ -1417,9 +1415,9 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 109.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 109.
  ) 
 Here is how much of TeX's memory you used:
- 39015 strings out of 493068
- 779280 string characters out of 6137720
- 945880 words of memory out of 5000000
+ 39021 strings out of 493068
+ 779334 string characters out of 6137720
+ 945998 words of memory out of 5000000
  42429 multiletter control sequences out of 15000+600000
  5755 words of font info for 76 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191

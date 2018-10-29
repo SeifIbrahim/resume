@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2018.9.30)  25 OCT 2018 15:38
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2018.9.30)  28 OCT 2018 21:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -999,7 +999,7 @@ tly
 LaTeX Info: Redefining \FA on input line 164.
 \g__fontspec_family_Roboto_int=\count169
 )
-No file apple_coverletter.aux.
+(./coverletters/apple_coverletter.aux)
 \openout1 = `apple_coverletter.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
@@ -1024,6 +1024,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 100.
 LaTeX Font Info:    ... okay on input line 100.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 100.
+
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 100.
 
@@ -1110,12 +1111,10 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 100.
 LaTeX Info: Redefining \pageref on input line 100.
 LaTeX Info: Redefining \nameref on input line 100.
+
+(./coverletters/apple_coverletter.out) (./coverletters/apple_coverletter.out)
 \@outlinefile=\write6
 \openout6 = `apple_coverletter.out'.
-
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 \headertextwidth=\skip79
 \headerphotowidth=\skip80
@@ -1221,9 +1220,9 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 139.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 139.
  ) 
 Here is how much of TeX's memory you used:
- 37410 strings out of 493068
- 750979 string characters out of 6137720
- 884571 words of memory out of 5000000
+ 37416 strings out of 493068
+ 751195 string characters out of 6137720
+ 884686 words of memory out of 5000000
  40862 multiletter control sequences out of 15000+600000
  6122 words of font info for 78 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
