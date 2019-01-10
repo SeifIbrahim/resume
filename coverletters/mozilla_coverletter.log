@@ -2,8 +2,8 @@ This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded 
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**coverletters/playstation_coverletter.tex
-(./coverletters/playstation_coverletter.tex
+**coverletters/mozilla_coverletter.tex
+(./coverletters/mozilla_coverletter.tex
 LaTeX2e <2017/01/01> patch level 3
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (./awesome-cv.cls
@@ -999,8 +999,8 @@ tly
 LaTeX Info: Redefining \FA on input line 164.
 \g__fontspec_family_Roboto_int=\count169
 )
-(./coverletters/playstation_coverletter.aux)
-\openout1 = `playstation_coverletter.aux'.
+(./coverletters/mozilla_coverletter.aux)
+\openout1 = `mozilla_coverletter.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
 LaTeX Font Info:    ... okay on input line 99.
@@ -1111,10 +1111,10 @@ LaTeX Info: Redefining \ref on input line 99.
 LaTeX Info: Redefining \pageref on input line 99.
 LaTeX Info: Redefining \nameref on input line 99.
 
-(./coverletters/playstation_coverletter.out)
-(./coverletters/playstation_coverletter.out)
+(./coverletters/mozilla_coverletter.out)
+(./coverletters/mozilla_coverletter.out)
 \@outlinefile=\write6
-\openout6 = `playstation_coverletter.out'.
+\openout6 = `mozilla_coverletter.out'.
 
 \headertextwidth=\skip79
 \headerphotowidth=\skip80
@@ -1215,17 +1215,17 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 138.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 138.
- (./coverletters/playstation_coverletter.aux)
+ (./coverletters/mozilla_coverletter.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 138.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 138.
  ) 
 Here is how much of TeX's memory you used:
  37416 strings out of 493068
- 751273 string characters out of 6137720
- 883685 words of memory out of 5000000
+ 751221 string characters out of 6137720
+ 884669 words of memory out of 5000000
  40862 multiletter control sequences out of 15000+600000
  6122 words of font info for 78 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 72i,11n,89p,10412b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,11n,89p,10408b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ./coverletters/playstation_coverletter.pdf (1 page).
+Output written on ./coverletters/mozilla_coverletter.pdf (1 page).

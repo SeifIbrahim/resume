@@ -1,0 +1,138 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, letterpaper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.4cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-skyblue}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{false}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+%\photo[circle,noedge,left]{./examples/profile}
+
+\name{}{\large Seif Ibrahim}
+\position{Computer Science Student{\enskip\cdotp\enskip} UC Santa Barbara}
+\address{6850 El Colegio Rd APT \#9406, Santa Barbara, CA 93117}
+
+\mobile{(510)612-0049}
+\email{seifibrahim@ucsb.edu}
+\github{seifibrahim}
+\linkedin{seif-ibrahim-71475b163}
+%\homepage{crd.lbl.gov/departments/computer-science/CLaSS/staff/khaled-ibrahim}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \extrainfo{extra informations}
+
+%\quote{``Be the change that you want to see in the world."}
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+{Mozilla Hiring Committe}
+{Mozilla Inc. \\
+San Francisco, CA}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+%\lettertitle{Cover Letter for SoC Internship}
+
+% How the letter is opened
+\letteropening{Dear Mozilla hiring committee,}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+\letterenclosure[Attached]{Curriculum Vitae}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Seif Ibrahim~~~·~~~Cover Letter}
+  {\mbox{}}
+
+% Print the title with above letter informations
+  \makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+I am submitting my resume and application for your consideration for the Software Engineering Intern position. When I learned of this opportunity, I felt compelled to send in my application. With my 5+ years of experience in C/C++ and Java, I am confident my skills will be of benefit to Mozilla's mission to build the world's leading internet browser. 
+
+Currently, I am a Computer Science Student in UC Santa Barbara's College of Creative Studies --- a small class (of about 6 people) on an accelerated track through Computer Science curriculum and research. I am looking to gain work experience in Computer Science at Mozilla this summer. My interests range from game development to high-performance computing and cybersecurity. 
+
+My interest in computer science stemmed from a desire to build video games. Java was the first programming language I taught myself in order to write mods for Minecraft. In middle school, I worked on my own small games in C++ after reading several books on the topic. I have a good grasp of how Object Oriented code works in practice from reading and modifying the code for those games which are open source.
+
+In high school, I explored C/C++ in more depth by competing in competitions such as USA Computing Olypiad where I reached top 5\% (Platinum Division. I also worked on personal projects, the biggest of which was a C project that let Linux users play a video through their webcam, spoofing the output, and allowing them to impersonate anybody on webcam chat. I planned to do this by piping video into the webcam device file; however, this wasn’t supported by the Linux Kernel since the webcam is traditionally only an output device. I circumvented this by writing a device driver in the form of a module for the Linux kernel which defined a “virtual webcam device” with the ability to output and input video in the V4l2 format used by most Linux applications. This alone took months to complete as I had to read through the kernel’s documentation, source/header files, and compile code just to debug it and figure out how it works. With the virtual device in hand, I wrote a specialized video player to decode video files and send V4l2 packets to the virtual device using Linux’s Libav library. Finally, I wrote a GUI using libsdl2 which lets users smoothly transition between video clips. The final project achieved exactly its goal of impersonating people, it consisted of thousands of lines of code and several months of work. It’s the project I’m most proud of.
+
+With my technical skills and my deep passion for free software and C/C++, I believe that I could quickly surpass your expectations as an intern at Mozilla. I urge you to take a look at my resume.
+
+Thank you for your consideration.
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
+
+\end{document}
