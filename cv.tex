@@ -48,6 +48,9 @@
 % If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
+% Custom link style
+\definecolor{myblue}{RGB}{6,69,173}
+\newcommand{\MYhref}[3][blue]{\href{#2}{\textbf{\color{#1}{#3}}}}%
 
 %-------------------------------------------------------------------------------
 %	PERSONAL INFORMATION
@@ -56,9 +59,9 @@
 % Available options: circle|rectangle,edge/noedge,left/right
 % \photo{./examples/profile.png}
 \name{Seif}{Ibrahim}
-\position{Freshman Computing Student{\enskip\cdotp\enskip}University of California, Santa Barbara
+\position{Computer Science Student{\enskip\cdotp\enskip}University of California, Santa Barbara
 {\enskip\cdotp\enskip} CA }
-\address{6850 El Colegio Rd APT \#9406, Santa Barbara, CA 93117}
+\address{545 Pierce St. APT 3101, Albany, CA 94706}
 
 \mobile{(510)612-0049}
 \email{seifibrahim@ucsb.edu}
@@ -72,7 +75,7 @@
 % \reddit{reddit-id}
 %\extrainfo{https://www.researchgate.net/profile/Khaled\_Ibrahim6}
 
-\quote{``A motivated computer science student and ViM nerd with 5+ years of experience who is obsessed with high-performance code/algorithms and enjoys building personal projects and hacks in C/C++. I am looking to utilize and develop my skills at a Computer Science internship."}
+\quote{``A motivated computer science student and ViM nerd with 5+ years of experience who is obsessed with high-performance code/algorithms and enjoys building personal projects and hacks in C/C++ and Python. I am looking to utilize and develop my skills at a Computer Science internship."}
 
 
 %-------------------------------------------------------------------------------
@@ -94,7 +97,7 @@
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
-%\input{details/experience.tex}
+\input{details/experience.tex}
 \input{details/education.tex}
 \input{details/skills.tex}
 \input{details/projects.tex}
